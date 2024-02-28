@@ -13,13 +13,13 @@ In First Terminal locate to Client.
   cd client
 ```
 
-Install Package in both client and Server (In both Terminal).
+Install Package in client.
 ```bash
   npm install
 ```
-!Before Running Create the .env in both client and server for that read the ENV section or IMP.text file.
+!Before Running Create the .env in client for that read the ENV section or IMP.text file.
 
-After creating .env Enter command in both client Terminal and server Terminal
+After creating .env Enter command in client Terminal
 ```bash
   npm run dev
 ```
