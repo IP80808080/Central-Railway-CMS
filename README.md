@@ -5,7 +5,7 @@ Welcome to the Central Railway Checklist Management System repository!
 
 ## Installation
 
-Install my-project with npm.
+Install project with npm.
 
 ```bash
   git clone https://github.com/IP80808080/Central-Railway-CMS.git
