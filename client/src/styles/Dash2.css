@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: deele 2px;
+    min-height: 100vh;
+    overflow-x: hidden;
+    color:#6a6a6a;
+    background-color: #eff2f1;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+.card-body{
+    margin-top: 13%;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+
+.date {
+    padding-left: 5px;
+    font-family:monospace;
+}
+#profileImage {
+    
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #5089b7;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    /* align-content: right; */
+    /* text-align: center; */
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.pro {
+    text-align: right;
+    margin-left: 40px;
+}
+
+.profile {
+    position: relative;
+    left: 90%;
+    padding-top: 9.5%;
+    display: inline-block;
+    cursor: pointer;
+    
+    /* margin-right: 40px;  */
+    /* margin-left: 1000px; */
+}
+
+
+.satya{
+    /* align-content: center; */
+    font-size: 13px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    color: #c19838;
+}
+.lg3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    text-align: center; 
+  }
+.office{
+    padding-top: 0px;
+    align-content: right;
+    text-align: right;
+}
+.lg{
+    display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+.tex{
+    margin-top: 7px;
+    padding-left: 13px;
+}
+header{
+    background: #3b5d50;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #f6f7f7;
+    padding: 20px 40px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(49, 49, 49, 0.5);
+}
+.Logo{
+    color:rgb(43, 118, 188);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+ 
+}
+.gov{
+    color:rgb(23, 102, 176);
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 600;
+    padding-bottom: 16px;
+   
+
+}
+
+
+
+h6{
+    color:#dd5555;
+    /* font-size: 15px; */
+}
+
+#options {
+            
+    position: absolute;
+    top: 35%;
+ 
+    background-color: #d3d4d388;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+   
+    max-width: 250px;
+   
+}
+
+.option {
+    padding: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+}
+
+.option:hover {
+    background-color: #f1f1f1;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #3498db;
+    /* Change the background color to your desired style */
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    align-items: center;
+    color: #fff;
+    /* Change the text color within the circle */
+}
+
+.red {
+    background-color: rgba(211, 82, 82, 0.889);
+}
+
+.btn{
+    background: #5089b7;
+}
+
+.btnprint{
+    background: #50b776;
+    color: #eff2f1;
+ 
+}
+
+@media(max-width: 1100px){
+
+
+    #profileImage {
+    
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+        background: #5089b7;
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        /* align-content: right; */
+        /* text-align: center; */
+        line-height: 50px;
+        margin: 20px 0;
+        /* margin-right: 30px; */
+    }
+    
+    .pro {
+        text-align: right;
+        margin-left: 40px;
+    }
+    
+    .profile {
+        position: absolute;
+        
+        left: 88%;
+        padding-top: 120px;
+        position: fixed;
+       
+    }
+    #options {
+        display: none;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #90757574;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 0;
+    }
+
+    .option {
+        padding: 10px;
+        cursor: pointer;
+    }
+.card-body{
+        margin-top: 150px;
+        /* margin-left: 30px; */
+        margin-right: 0%;
+    
+    }
+.satya{
+    /* align-content: center; */
+    font-size: 8px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    color: #c19838;
+}
+.lg3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    text-align: center; 
+  }
+.office{
+    padding-top: 0px;
+    align-content: right;
+    /* text-align: right; */
+    size: 15px;
+}
+.lg{
+    display: flex;
+  align-items: left;
+  padding-left: 0%;
+  justify-content: left;
+  /* size: 50px; */
+}
+
+h6{
+    color:#dd5555;
+    font-size: 11px;
+}
+.tex{
+    margin-top: 17px;
+    padding-left: 13px;
+    font-size: 1.4em;
+}
+header{
+    background: #3b5d50;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background: #f6f7f7;
+    padding: 20px 40px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 15px rgba(49, 49, 49, 0.5);
+}
+.im{
+    width: 50%;
+    height: 50%;
+    size: 40%;
+}
+.Logo{
+    color:rgb(43, 118, 188);
+    text-decoration: none;
+    font-size: 0.5em;
+    font-weight: 500;
+ 
+}
+.gov{
+    color:rgb(23, 102, 176);
+    text-decoration: none;
+    font-size: 0.7em;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+}

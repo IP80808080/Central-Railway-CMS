@@ -1,0 +1,11 @@
+For the Client create the .env
+REACT_APP_SERVER_DOMAIN = "http://localhost:8000"
+
+For the Server create the .env
+PORT = 8000
+MONGODB_TOKEN = " "
+JWT_SECRET = 32bit Number (without colons)
+SESSION_SECRET= 64bit Number (without colons)
+TWILIO_ACCOUNT_SID = " "
+TWILIO_AUTH_TOKEN = " "
+TWILIO_SERVICE_SID = " "

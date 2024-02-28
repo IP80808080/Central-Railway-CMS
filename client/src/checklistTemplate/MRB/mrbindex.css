@@ -1,0 +1,101 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-font-size {
+  font-size: 30px;
+}
+
+@media print {
+  button {
+    display: none;
+  }
+}
+
+.custom-font-size-sm {
+  font-size: 20px;
+}
+
+table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #333;
+
+  padding: 8px;
+}
+
+.placeholder-center::placeholder {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.custom-table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.custom-table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  align-items: center;
+}
+
+.custom-table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+
+.custom-label {
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.custom-input {
+  margin-top: 0.375rem;
+}
+
+.small-input {
+  width: 100px;
+}
+
+.space {
+  margin-bottom: 1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header {
+  line-height: 1;
+}
+
+.container {
+  padding: 21px;
+}
+
+.pri {
+  background: rgb(172, 132, 80);
+}
