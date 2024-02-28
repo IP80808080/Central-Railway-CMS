@@ -13,7 +13,7 @@ In First Terminal locate to Client.
   cd server
 ```
 
-Install Package in Server (In both Terminal).
+Install Package in Server Terminal
 ```bash
   npm install
 ```
