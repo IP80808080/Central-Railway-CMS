@@ -10,7 +10,7 @@ Open Terminal in split form by using shortcut or by going Terminal => Split Term
 
 In First Terminal locate to Client.
 ```bash
-  cd client
+  cd server
 ```
 
 Install Package in Server (In both Terminal).
