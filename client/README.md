@@ -1,8 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Running Application
 
-Currently, two official plugins are available:
+To run Application, run the following command.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Open Terminal in split form by using shortcut or by going Terminal => Split Terminal
+```bash
+  Ctrl + Shift + 5
+```
+
+In First Terminal locate to Client.
+```bash
+  cd client
+```
+
+Install Package in both client and Server (In both Terminal).
+```bash
+  npm install
+```
+!Before Running Create the .env in both client and server for that read the ENV section or IMP.text file.
+
+After creating .env Enter command in both client Terminal and server Terminal
+```bash
+  npm run dev
+```
+
+## Environment Variables
+
+#### create .env here in Client folder and paste
+
+`REACT_APP_SERVER_DOMAIN` = http://localhost:8000
+
+
+
