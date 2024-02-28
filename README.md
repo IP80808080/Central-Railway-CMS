@@ -31,7 +31,7 @@ Install Package in both client and Server (In both Terminal).
 ```bash
   npm install
 ```
-!Before Running Create the .env in both client and server for that read the ENV section or IMP.text file.
+!Before Running Create the .env in both client and server for that read the Environment Variables section or IMP.text file.
 
 After creating .env Enter command in both client Terminal and server Terminal
 ```bash
