@@ -19,7 +19,7 @@ Install Package in client.
 ```
 !Before Running Create the .env in client for that read the ENV section or IMP.text file.
 
-After creating .env Enter command in client Terminal
+After creating .env file Enter command in client Terminal
 ```bash
   npm run dev
 ```
