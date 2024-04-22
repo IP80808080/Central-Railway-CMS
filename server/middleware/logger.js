@@ -1,0 +1,154 @@
+const _0x1dc169 = _0x4d35,
+  _0x1f3b13 = _0x4d35;
+(function (_0x482838, _0x177422) {
+  const _0x3d375c = _0x4d35,
+    _0x4895f4 = _0x4d35,
+    _0x1f5cdb = _0x482838();
+  while (!![]) {
+    try {
+      const _0x2bdc0c =
+        (parseInt(_0x3d375c(0x161)) / (-0x24b5 + -0x2f4 + 0x27aa)) *
+          (-parseInt(_0x3d375c(0x172)) / (0x2681 + 0x550 + -0x2bcf * 0x1)) +
+        parseInt(_0x4895f4(0x16f)) / (-0x38c * -0x1 + 0x720 * -0x1 + 0x397) +
+        (parseInt(_0x3d375c(0x158)) / (-0x2 * 0x113f + -0x997 * 0x1 + 0x2c19)) *
+          (-parseInt(_0x3d375c(0x15c)) /
+            (-0xe5 * 0x1 + -0x3 * -0x2c6 + -0xc * 0x9e)) +
+        (parseInt(_0x4895f4(0x153)) /
+          (-0x13d * -0x13 + 0xb07 * 0x2 + -0x2d8f)) *
+          (parseInt(_0x4895f4(0x165)) /
+            (0x7 * -0x6b + 0x1 * -0x24d1 + 0x1 * 0x27c5)) +
+        (parseInt(_0x3d375c(0x164)) / (-0x2fc * 0x5 + 0x14cc + 0x88 * -0xb)) *
+          (-parseInt(_0x3d375c(0x154)) / (0xe91 + 0x11dd + -0x2065)) +
+        (parseInt(_0x4895f4(0x167)) / (0x2f + 0x219 * -0x11 + -0x11c2 * -0x2)) *
+          (parseInt(_0x3d375c(0x166)) /
+            (0x5b * 0x2 + -0x2 * 0xac1 + 0x37 * 0x61)) +
+        (parseInt(_0x3d375c(0x15a)) / (0x1 * 0x1df9 + 0x5c2 + -0x23af)) *
+          (parseInt(_0x4895f4(0x15d)) /
+            (-0x1 * -0x1b8c + -0x1 * 0xc6d + -0xf12));
+      if (_0x2bdc0c === _0x177422) break;
+      else _0x1f5cdb["push"](_0x1f5cdb["shift"]());
+    } catch (_0x39102b) {
+      _0x1f5cdb["push"](_0x1f5cdb["shift"]());
+    }
+  }
+})(_0x5d1e, -0xb5 * 0xc9 + 0x425f1 + 0x4bec5);
+function _0x4d35(_0x1d009d, _0x479ea7) {
+  const _0x44f160 = _0x5d1e();
+  return (
+    (_0x4d35 = function (_0x577a0e, _0x4ff743) {
+      _0x577a0e = _0x577a0e - (0x205f * 0x1 + -0x15e8 + -0x924);
+      let _0x498f6e = _0x44f160[_0x577a0e];
+      return _0x498f6e;
+    }),
+    _0x4d35(_0x1d009d, _0x479ea7)
+  );
+}
+const { format } = require(_0x1dc169(0x169)),
+  { v4: uuid } = require(_0x1dc169(0x155)),
+  fs = require("fs"),
+  fsPromises = require("fs")[_0x1dc169(0x15f)],
+  path = require(_0x1f3b13(0x160)),
+  logEvents = async (_0x3a6963, _0x121dc7) => {
+    const _0x12aecd = _0x1f3b13,
+      _0x3ef37d = _0x1dc169,
+      _0x2b42f7 = {
+        TkPpQ: function (_0x1b934e, _0x56c903, _0x4bdd53) {
+          return _0x1b934e(_0x56c903, _0x4bdd53);
+        },
+        wtuQa: _0x12aecd(0x16a),
+        bGDUu: function (_0x2659ad) {
+          return _0x2659ad();
+        },
+        EwWLC: _0x3ef37d(0x171),
+      },
+      _0x5526d5 = _0x2b42f7[_0x3ef37d(0x16b)](
+        format,
+        new Date(),
+        _0x2b42f7[_0x12aecd(0x16e)]
+      ),
+      _0x341b00 =
+        _0x5526d5 +
+        "\x09" +
+        _0x2b42f7["bGDUu"](uuid) +
+        "\x09" +
+        _0x3a6963 +
+        "\x0a";
+    try {
+      !fs["existsSync"](
+        path[_0x3ef37d(0x157)](__dirname, "..", _0x2b42f7["EwWLC"])
+      ) &&
+        (await fsPromises[_0x12aecd(0x16d)](
+          path[_0x3ef37d(0x157)](__dirname, "..", _0x12aecd(0x171))
+        )),
+        await fsPromises[_0x3ef37d(0x163)](
+          path[_0x3ef37d(0x157)](__dirname, "..", _0x3ef37d(0x171), _0x121dc7),
+          _0x341b00
+        );
+    } catch (_0x246d8b) {
+      console[_0x12aecd(0x16c)](_0x246d8b);
+    }
+  },
+  logger = (_0x436e8b, _0x5643ab, _0x25647c) => {
+    const _0x20b7aa = _0x1f3b13,
+      _0xdb415c = _0x1dc169,
+      _0x106704 = {
+        ViOgo: "reqLog.log",
+        gXvuX: function (_0x423863) {
+          return _0x423863();
+        },
+      };
+    logEvents(
+      _0x436e8b[_0x20b7aa(0x162)] +
+        "\x09" +
+        _0x436e8b["url"] +
+        "\x09" +
+        _0x436e8b[_0xdb415c(0x170)][_0xdb415c(0x156)],
+      _0x106704[_0xdb415c(0x15e)]
+    ),
+      console["log"](_0x436e8b[_0xdb415c(0x162)] + "\x20" + _0x436e8b["path"]),
+      _0x106704["gXvuX"](_0x25647c);
+  },
+  _0xd48aea = {};
+(_0xd48aea[_0x1f3b13(0x15b)] = logEvents),
+  (_0xd48aea[_0x1dc169(0x159)] = logger),
+  (module[_0x1dc169(0x168)] = _0xd48aea);
+function _0x5d1e() {
+  const _0x12f3f5 = [
+    "exports",
+    "date-fns",
+    "ddMMyyyy\x09ss:mm:HH",
+    "TkPpQ",
+    "log",
+    "mkdir",
+    "wtuQa",
+    "2289549cgTmrb",
+    "headers",
+    "logs",
+    "12gpClhZ",
+    "6xWJGTz",
+    "9VEKbUp",
+    "uuid",
+    "origin",
+    "join",
+    "2707196twPPuL",
+    "logger",
+    "4577424uTLcYr",
+    "logEvents",
+    "5TcIqqd",
+    "39hfOYkl",
+    "ViOgo",
+    "promises",
+    "path",
+    "2837IYAGmL",
+    "method",
+    "appendFile",
+    "7832072QsrkdU",
+    "1170897ARZTjG",
+    "1589247rdqPIj",
+    "10HFPBKs",
+  ];
+  _0x5d1e = function () {
+    return _0x12f3f5;
+  };
+  return _0x5d1e();
+}
