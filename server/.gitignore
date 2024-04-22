@@ -1,5 +1,0 @@
-#ignore the env from server
-.env
-
-#ignore the node packages from server
-node_modules/
