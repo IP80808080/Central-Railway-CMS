@@ -40,7 +40,7 @@ After creating .env file Enter command in Terminal
 
 `PORT` = 8000
 
-`MONGODB_TOKEN` = 'ENTER_YOUR_TOKEN_HERE' 
+`MONGODB_TOKEN` = ENTER_YOUR_TOKEN_HERE
 
 `JWT_SECRET`  = 32bit Number (without Quotation)
 
@@ -52,4 +52,6 @@ After creating .env file Enter command in Terminal
 
 `TWILIO_SERVICE_SID` = 'ENTER_YOUR_SERVICE_SID_HERE'
 
+`MAIL` = "TEST-MAIL" 
+`PASS` = "PASS"
 
